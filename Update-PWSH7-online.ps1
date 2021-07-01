@@ -21,4 +21,4 @@ function Install-PWSHCore7 {
 
 Install-PWSHCore7
 Start-Sleep 5
-Unregister-ScheduledTask -TaskPath '\advinsight\OneAndDone\' -TaskName 'Instal PWSH core 7.1.3' -Confirm:$false
+Unregister-ScheduledTask -TaskPath '\advinsight\OneAndDone\' -TaskName 'Instal PWSH core 7.1.3' -Confirm:$false -EA 0
