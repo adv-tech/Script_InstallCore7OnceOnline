@@ -19,6 +19,7 @@ function Install-PWSHCore7 {
   } else {Write-Debug "Core 7 is already installed."}
 }
 
+# # 
 Install-PWSHCore7
 Start-Sleep 5
 Unregister-ScheduledTask -TaskPath '\advinsight\OneAndDone\' -TaskName 'Instal PWSH core 7.1.3' -Confirm:$false -EA 0
